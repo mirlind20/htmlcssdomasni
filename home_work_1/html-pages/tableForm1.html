@@ -5,11 +5,32 @@
 </head>
 
 <body>
-    <input type="radio" name="card"> <img src="./images/card.jpg" width="100px" , height="20px" alt="card">
-    </input>
 
-    <input type="radio" name="card"> <img src="./images/card.jpg" width="30px" , height="20px" alt="card">
-    </input>
+    <div style="padding: 100px 400px;">
+        <p><b style="text-decoration: underline;">Secure Payment Info</b></p>
+        <input type="radio" name="card"> <img src="./images/card.jpg" width="100px" , height="20px" alt="card">
+        </input>
+
+        <input type="radio" name="card"> <img src="./images/paypal.jpg" width="50px" , height="20px" alt="card">
+        </input>
+        </br>
+        <label for="name" style="margin-top: 5px; color:gray">Name (as it appears on your card)</label>
+        </br>
+        <input type="text" name="name" style="width: 250px;margin-top:5px;">
+        </br>
+        <label for="name" style="margin-top: 5px;color:gray">Card number (no dashes or spaces)</label>
+        </br>
+        <input type="text" name="name" style="width: 250;margin-top: 5px;">
+        </br>
+        <label for="expdate" style="margin-top:5px;width: 250;color:gray">Expiration date</label>
+        </br>
+        <input type="month" style="margin-top:5px width: 250px;"></input>
+        </br>
+        <label for="3digit" style="color:gray">Security code(3 on back, Amex: 4 on front)</label>
+        </br>
+        <input type="text" name="3digit" id="threedigit" maxlength="4" style="width:100px;height: 50px;">
+        <img src="./images/cvv.jpg" alt="cvv" style="width: 150px;height: 50px;">
+    </div>
 
 
 </body>
