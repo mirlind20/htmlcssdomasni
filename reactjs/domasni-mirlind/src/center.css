@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+div h1{
+    
+        text-align: center;
+      }
+
+
+.color-button {
+    background-color:lightblue;
+    border-radius: 4px;
+    text-size-adjust: 12px;
+    color: black;
+    box-shadow: 0 8px 16px 0 deepskyblue, 0 6px 20px 0 deepskyblue;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
